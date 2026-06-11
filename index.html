@@ -1,0 +1,40 @@
+ index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball 1v1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="ui">
+        <h1>🏀 Basketball 1v1</h1>
+
+        <div id="scoreboard">
+            <span>Player: <span id="playerScore">0</span></span>
+            <span>CPU: <span id="cpuScore">0</span></span>
+            <span>Time: <span id="timer">60</span>s</span>
+        </div>
+
+        <div id="controls">
+            <p><strong>Controls:</strong></p>
+            <p>A / D → Move</p>
+            <p>W → Jump</p>
+            <p>SPACE → Shoot</p>
+        </div>
+    </div>
+
+    <canvas id="gameCanvas" width="1000" height="500"></canvas>
+
+    <div id="gameOver" class="hidden">
+        <h2 id="winnerText"></h2>
+        <button onclick="restartGame()">Play Again</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+```

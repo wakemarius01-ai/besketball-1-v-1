@@ -1,0 +1,72 @@
+style.css 
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1f7a3a;
+    color: white;
+    text-align: center;
+}
+
+#ui {
+    padding: 15px;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+#scoreboard {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+#controls {
+    margin-bottom: 15px;
+}
+
+#controls p {
+    margin: 5px 0;
+}
+
+#gameCanvas {
+    background-color: #d2a679;
+    border: 5px solid white;
+    display: block;
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none;
+}
+
+#gameOver {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    border: 3px solid white;
+}
+
+#gameOver h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+```
