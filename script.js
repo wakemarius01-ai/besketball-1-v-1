@@ -453,4 +453,4 @@ function gameLoop() {
 
 // Inicia o jogo
 gameLoop();
-```
+
