@@ -175,8 +175,7 @@ function gameLoop() {
 }
 
 gameLoop();
-```
-```javascript
+
 // ===============================
 // PARTE 3B - BOLA E PONTUAÇÃO
 // Cole este código ABAIXO da Parte 3A
