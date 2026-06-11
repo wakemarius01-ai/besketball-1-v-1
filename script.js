@@ -362,8 +362,6 @@ function drawBall() {
 
 // Dentro do gameLoop(), adicione:
 
-updateBall();
-drawBall();
 
 // A ordem deve ficar assim:
 
