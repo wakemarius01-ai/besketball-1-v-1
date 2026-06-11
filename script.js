@@ -1,4 +1,4 @@
-script.js
+
 // script.js - Parte 3A
 // Movimento, física básica, IA simples e desenho da quadra
 
