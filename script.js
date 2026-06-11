@@ -174,7 +174,7 @@ function gameLoop() {
     requestAnimationFrame(gameLoop);
 }
 
-gameLoop();
+
 
 // ===============================
 // PARTE 3B - BOLA E PONTUAÇÃO
