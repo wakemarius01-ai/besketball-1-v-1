@@ -379,8 +379,7 @@ drawPlayer(player);
 drawPlayer(cpu);
 drawBall();
 */
-```
-```javascript
+
 // ===============================
 // PARTE 3C - CRONÔMETRO, FIM DE JOGO E REINÍCIO
 // Cole este código ABAIXO da Parte 3B
